@@ -4,53 +4,94 @@
 		<!-- META TAG -->
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Styles css -->
-		<link rel="stylesheet" href="./styles/Home.css">
+		<!-- Styles Bootstrap core CSS	-->
+		<link rel="stylesheet" href="./assets//styles/bootstrap5.0/bootsrap.min.css">
+		<!-- Styles Header core CSS	-->
+		<link rel="stylesheet" href="./assets/styles/header.css">
+		<!-- Custom styles for this template -->
+		<link href="./assets/styles/carosul.css" rel="stylesheet">
+		<!-- header html -->
+		<link rel="stylesheet" href="./Views/Layout/header.html">
 	</head>
 
 	<body>
-		<!-- HEADER SECCIÓN -->
-		<header>
-			<div style="color:rgb(0, 0, 0)">
-				<!-- Párrafor -->
-				<p>MI PRIMER PÁGINA WEB EN EL AÑO 2021</p>
-				<!-- HACER TEXTO EN NEGRITA -->
-				<b>MI PRIMER PÁGINA WEB EN EL AÑO 2021</b>
-				<!-- br salto de linea -->
-				<br>
-				<!-- LETRA EN CURSIVA -->
-				<I>MI PRIMER PÁGINA WEB EN EL AÑO 2021</I>
 
-			</div>
-			<div style="color:rgb(245, 118, 0)">
-				<!-- ENCABEZADO O TITULO PRINCIPAL -->
-				<h1>BIENVENIDO AL RAMA MASTER</h1>
-				<!-- Para Subtitulos -->
-				<h2>BIENVENIDO A la rama DSM</h2>
+
+
+		<div class="b-example-divider"></div>
+		
+<!-- 		<div class="container">
+			<header class="d-flex justify-content-center py-3">
+				<ul class="nav nav-pills">
+					<li class="nav-item"><a href="" class="nav-link active" aria-current="page">Inicio</a> </li>
+					<li class="nav-item"><a href="" class="nav-link">Nosotros</a> </li>
+					<li class="nav-item"><a href="" class="nav-link">Servicios</a> </li>
+					<li class="nav-item"><a href="" class="nav-link">Galeria</a> </li>
+					<li class="nav-item"><a href="" class="nav-link">Contacto</a> </li>
+				</ul>
+			</header>
+		</div>
+		<header>
 			
-			</div>
-		</header>
-		<!-- NAVIGATION BAR -->
-	<div>
-		<nav>
-			<a  href="http://youtube.com/">Inicio</a>
-			<a href="">Acerca De Nosotros</a>
-			<a href="">Galeria</a>
-			<a href="">Contacto</a>
-			<div>
-				<a href="">Iniciar Sessión</a>
-				<a href="">Registrate</a>
-			</div>
-		</nav>
-	</div>
+		</header> -->
+
 	<!-- CONTEN SECTION -->
 	<section>
-		<h3>content section</h3>
+		<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+					<img src="./assets/images/slideruno.jpeg" alt="" height="100%" width="100%">		
+				<div class="container">
+				  <div class="carousel-caption text-start">
+					<h1>Viaje Travel</h1>
+					<p>Viaja con nosotros a los paises mas hermosos del mundo por un menor costo </p>
+					<p><a class="btn btn-ls btn-primary" href="#">Informacion</a></p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="./assets/images/slider2.jpeg" alt="" height="100%" width="100%">		
+		
+				<div class="container">
+				  <div class="carousel-caption">
+					<h1>New York.</h1>
+					<p>Conoce y viaja a la mejor ciudad de america.</p>
+					<p><a class="btn btn-lg btn-primary" href="#">Mas</a></p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="./assets/images/slider3.jpeg" alt="" height="100%" width="100%">		
+		
+				<div class="container">
+				  <div class="carousel-caption text-end">
+					<h1>Viaja CDMX.</h1>
+					<p>Conoce la Santa Fe Mexico.</p>
+					<p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
 	</section>
 	<!-- Footer Section -->
 	<footer>
-		<h2 class="special">footer section</h2>
 	</footer>
+	<script src="./assets//styles/bootstrap5.0/js/boostrap.bundle.min.js"></script>
+
 	</body>
 
 </html>
