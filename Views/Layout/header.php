@@ -1,3 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- META TAG -->
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Styles Bootstrap core CSS	-->
+		<link rel="stylesheet" href="../assets/styles/bootstrap5.0/bootsrap.min.css">
+		<!-- Styles Header core CSS	-->
+		<link rel="stylesheet" href="../assets/styles/header.css">
+		<!-- Custom styles for this template -->
+		<link href="../assets/styles/carosul.css" rel="stylesheet">
+		<link href="../assets/styles/login.css" rel="stylesheet">
+		
+		<!-- fonts icons -->
+		<script src="https://kit.fontawesome.com/7a66a4eab9.js" crossorigin="anonymous"></script>
+
+	</head>
+
+	<body>
 		<!-- IMAGE SVG -->
 		<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 			<symbol id="bootstrap" viewBox="0 0 118 94">
@@ -34,10 +54,11 @@
 				</a>
 				<ul class="nav nav-pills">
 					<li class="nav-item"><a href="mipagina.html" class="nav-link active" aria-current="page">Inico</a></li>
-					<li class="nav-item"><a href="Views/Nosotros.html" class="nav-link">Nosotros</a></li>
-					<li class="nav-item"><a href="Views/paquetes.html" class="nav-link">Paquetes</a></li>
-					<li class="nav-item"><a href="Views/hoteles.html" class="nav-link">Hoteles</a></li>
-					<li class="nav-item"><a href="Views/Contacto.html" class="nav-link">Contacto</a></li>
+					<li class="nav-item"><a href="./Nosotros.html" class="nav-link">Nosotros</a></li>
+					<li class="nav-item"><a href="./paquetes.php" class="nav-link">Paquetes</a></li>
+					<li class="nav-item"><a href="./hoteles.php" class="nav-link">Hoteles</a></li>
+					<li class="nav-item"><a href="./Contacto.php" class="nav-link">Contacto</a></li>
+					<li class="nav-item"><a href="./login.php" class="nav-link">Ingresar</a></li>
 				  </ul>
 			</header>
 		</div>
