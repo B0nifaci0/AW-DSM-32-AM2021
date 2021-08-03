@@ -64,4 +64,9 @@
 				© 2020 Copyright:<a class="text-dark" href="https://www.digital-pineapple.com.mx/">Digital Pineapple</a>
 			</div>
 	</footer>
-<!-- Eend footer -->
+<!-- Eend footer -->	
+<script src="../assets/styles/bootstrap5.0/js/boostrap.bundle.min.js"></script>
+
+	</body>
+
+</html>

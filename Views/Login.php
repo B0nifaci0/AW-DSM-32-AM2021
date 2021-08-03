@@ -9,7 +9,7 @@
       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
         <form>
           <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-            <p class="lead fw-normal mb-0 me-3">Incia Con:</p>
+            <p class="lead fw-normal mb-0 me-3">Inicia Con:</p>
             <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-facebook-f"></i>
             </button>
@@ -54,8 +54,8 @@
 
           <div class="text-center text-lg-start mt-4 pt-2">
             <button type="button" class="btn btn-primary btn-lg"
-              style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
-            <p class="small fw-bold mt-2 pt-1 mb-0">No tienes cuenta? <a href="#!"
+              style="padding-left: 2.5rem; padding-right: 2.5rem;">Iniciar</button>
+            <p class="small fw-bold mt-2 pt-1 mb-0">No tienes cuenta? <a href="Registrate.php"
                 class="link-danger">Registrate</a></p>
           </div>
 

@@ -1,6 +1,6 @@
 {
     "files.autoSave": "afterDelay",
     "editor.cursorStyle": "underline-thin",
-    "workbench.colorTheme": "Black",
+    "workbench.colorTheme": "Just Black",
     "html.format.indentInnerHtml": true
 }

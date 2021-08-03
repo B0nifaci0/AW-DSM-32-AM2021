@@ -1,27 +1,62 @@
+<!-- Mandamos A llamar al archivo Header.php -->
 <?php include('Layout/header.php');?>
+<?php include('Layout/slider.php');?>
+<section>
+<div class="album py-5 bg-dark">
+		<div class="container">
+			<h3 class="text-light centertext">PAQUETES Y SERVICIOS</h3>
 
-		<div class="b-example-divider"></div>
-		
-<!-- 		<div class="container">
-			<header class="d-flex justify-content-center py-3">
-				<ul class="nav nav-pills">
-					<li class="nav-item"><a href="" class="nav-link active" aria-current="page">Inicio</a> </li>
-					<li class="nav-item"><a href="" class="nav-link">Nosotros</a> </li>
-					<li class="nav-item"><a href="" class="nav-link">Servicios</a> </li>
-					<li class="nav-item"><a href="" class="nav-link">Galeria</a> </li>
-					<li class="nav-item"><a href="" class="nav-link">Contacto</a> </li>
-				</ul>
-			</header>
+		  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+			<div class="col">
+			  <div class="card shadow-sm">
+					<img src="../assets//images/slideruno.jpeg"width="100%" height="225" alt="">
+				<div class="card-body">
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <div class="d-flex justify-content-between align-items-center">
+					<div class="btn-group">
+					  <button type="button" class="btn btn-md btn-outline-secondary">View</button>
+					  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					</div>
+					<small class="text-muted">9 mins</small>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col">
+				<div class="card shadow-sm">
+				  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+	  
+				  <div class="card-body">
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+						<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+						<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+					  </div>
+					  <small class="text-muted">9 mins</small>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col">
+				<div class="card shadow-sm">
+				  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+	  
+				  <div class="card-body">
+					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<div class="d-flex justify-content-between align-items-center">
+					  <div class="btn-group">
+						<button src="./" type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+						<button type="button" class="btn btn-sm btn-outline-secondary">Info</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+		   </div>
 		</div>
-		<header>
-			
-		</header> -->
-		<?php include('Layout/Secction.php');?>
+	</div>
+</section>
 
 
 <?php include('Layout/Footer.php');?>
-	<script src="../assets/styles/bootstrap5.0/js/boostrap.bundle.min.js"></script>
-
-	</body>
-
-</html>
