@@ -86,8 +86,51 @@ $personas = array("josafat"=>20,"jessica"=>19,"dulce maria"=>24);
 
  /* delcaricon de for */
  $alumno ="";
- for($alumno=1; $alumno<100; $alumno=$alumno+1)
+ for($alumno=1; $alumno<10; $alumno=$alumno+1)
  {echo ($alumno."Aprobaron el curso<br>");};
+ include('../class/ClassCoche.php');
+ echo ("estos datos provienen de una objeto");
+ echo ("<br>");
+
+ echo ('el color del coche:'.$miCoche->color);
+ echo ("<br>");
+ 
+
+ echo ('la marca del coche:'.$miCoche->marca);
+ echo ("<br>");
+ echo ('la velocidad  del coche:'.$miCoche->velocidad);
+ echo ("<br>");
+ echo ("estos datos provienen de una  mi segundo objeto");
+ echo ("<br>");
+
+ echo ('el color del coche:'.$otroCoche->color);
+ echo ("<br>");
+
+ echo ('la marca del coche:'.$otroCoche->marca);
+ echo ("<br>");
+ echo ('la velocidad  del coche:'.$otroCoche->velocidad);
+ echo ("<br>");
+ /* proviene de una fun */
+ echo ("estos datos provienen de una funcion");
+ echo ("<br>");
+
+ echo ('el color   del coche:'.$miCoche->getColor());
+ echo ("<br>");
+ echo ('la velocidad   del coche:'.$miCoche->getVelocidad());
+ echo ("<br>");
+ echo ('la marca   del coche:'.$miCoche->getMarca());
+ echo ("<br>");
+
+ if($miCoche->elCochceElegidoEselMasRapido($otroCoche)){
+     echo 'El '.$otroCoche->marca.'es el mas rapido';
+ }else{
+     echo 'El'.$miCoche->marca. 'es mas rapido';
+
+ }
+ $miCoche->elCochceElegidoEselMasRapido($otroCoche);
 ?>
+<!-- mandamos a llamar la class -->
+
+
 
 <?php include('Layout/Footer.php')?>
